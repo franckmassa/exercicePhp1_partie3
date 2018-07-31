@@ -1,6 +1,4 @@
-<?php
-$money = 0;
-?>
+<?php $money = 0; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,7 +9,7 @@ $money = 0;
   <p>
     <?php
     //On incrémente tant que l'on est pas arrivé à 10
-    while($money <= 10){
+    while($money < 10){
       echo $money++ . '<br/>';
     }
     ?>
